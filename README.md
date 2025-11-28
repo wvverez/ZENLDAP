@@ -73,40 +73,53 @@ Estos archivos pueden abrirse en Excel, PowerBI o cualquier herramienta SIEM/SOC
 ## 🔑 QUE INFORMACIÓN OBTIENE
 
 🔷 Grupos (objectClass=group)
+
 -Nombre del grupo
+
 -Descripción 
+
 -Miembros
 
 🔷 Usuarios (objectClass=user)
+
 -Nombre
+
 -Correo
+
 -Último inicio (lastLogonTimestamp)
+
 -Cuenta dehsbilitada
+
 -Contraseña nunca expira
 
 
 🔷 Equipos (objectClass=computer)
+
 -Nombre del equipo
+
 -Sistema operativo
+
 -Último inicio 
 
 🔷 Política de dominio (domainsDNS)
+
 -Longitud mínima de contraseña
+
 -Umbral de bloqueo
+
 -Edad máxima de contraseña 
 
 ## 🫸 Cómo ejecutarlo paso a paso 
 
 1. Abrir PowerShell como administrador
+   
 2. Permitir ejecución de scripts si es necesario:
 
-   <pre>
-       <code>
-       
-Set-Execution Policy Bypass -Scope Process
-
-       </code>
-   </pre>
+<pre>
+    <code>
+    Set-Execution Policy Bypass -Scope Process
+    </code>
+</pre>
 
 3. Ejecutar el script con los parámetros deseados:
 
@@ -124,12 +137,9 @@ Este script es únicamente para fines educativos y auditorías en redes donde te
 ## 🤝 Contribuciones
 Las contribuciones son bienvenidas! Puedes abrir un issue o un pull request.
 
-## 🗣️💬 Contacto en caso de fallos
+## 💬 Contacto en caso de fallos
 
 [![Telegram](https://img.shields.io/badge/-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/wvverez)
 [![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/wvverez)
 
 
-
-
-   
