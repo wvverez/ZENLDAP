@@ -6,8 +6,11 @@ Este repositorio contiene un script echo en powershell diseñado para enumerar c
 
 🔎Extrae información de:
 ✅ Grupos del dominio
+
 ✅Usuarios 
+
 ✅ Equipos 
+
 ✅Política principal del dominio (password policy)
 
 y exporta todo en archivos CSV.
@@ -15,14 +18,19 @@ y exporta todo en archivos CSV.
 ##📭 Características principales
 
 ↪️ Conexión LDAP autenticada (Secure/ LDAPS)
+
 ↪️ Consultas paginadas para dominios grandes 
+
 ↪️ Exportación a CSV por categoría 
+
 ↪️ Compatible con entornos Windows, PowerShell 5+ y .NET
 
 
 ## Requisitos previos
 🔐 Windows PowerShell 5.1+
+
 🧨 Permisos para leer Active Directory (no requiere privilegios especiales)
+
 💻 Conectividad a un DC vía:
     ·LDAP(389) o
     ·LDAPS (636) si se usa SecureSocketsLayer
