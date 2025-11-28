@@ -38,3 +38,24 @@ y exporta todo en archivos CSV.
 
 ## 🔋 Instalación 
 
+Clonar el repositorio: 
+<pre>
+    <code>
+git clone https://github.com/wvverez/ZENLDAP.git
+cd ZENLDAP.git
+    </code>
+</pre>
+
+
+## Parámetros principales:
+
+| Parámetrp | Descripción |
+|--------|-------------|
+| `LDAPath` | Ruta LDAP con el DN base  |
+| `Username` | Usuario de dominio   |
+| `Password` | Contraseña de usuario  |
+| `AuthType` | Tipo de autenticación: Secure, SocketsLayer   |
+| `OutputPath` | Carpeta donde se guardarán los CSV   |
+
+## Archivos generados
+
