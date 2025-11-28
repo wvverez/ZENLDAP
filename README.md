@@ -47,7 +47,7 @@ cd ZENLDAP.git
 </pre>
 
 
-## Parámetros principales:
+## 🖇️ Parámetros principales:
 
 | Parámetro | Descripción |
 |--------|-------------|
@@ -57,7 +57,7 @@ cd ZENLDAP.git
 | `AuthType` | Tipo de autenticación: Secure, SocketsLayer   |
 | `OutputPath` | Carpeta donde se guardarán los CSV   |
 
-## Archivos generados
+## 🗂️ Archivos generados
 
 El script exporta automáticamente los siguientes reportes:
 
@@ -70,14 +70,14 @@ El script exporta automáticamente los siguientes reportes:
 
 Estos archivos pueden abrirse en Excel, PowerBI o cualquier herramienta SIEM/SOC
 
-## QUE INFORMACIÓN OBTIENE
+## 🔑 QUE INFORMACIÓN OBTIENE
 
-Grupos (objectClass=group)
+🔷 Grupos (objectClass=group)
 -Nombre del grupo
 -Descripción 
 -Miembros
 
-Usuarios (objectClass=user)
+🔷 Usuarios (objectClass=user)
 -Nombre
 -Correo
 -Último inicio (lastLogonTimestamp)
@@ -85,17 +85,17 @@ Usuarios (objectClass=user)
 -Contraseña nunca expira
 
 
-Equipos (objectClass=computer)
+🔷 Equipos (objectClass=computer)
 -Nombre del equipo
 -Sistema operativo
 -Último inicio 
 
-Política de dominio (domainsDNS)
+🔷 Política de dominio (domainsDNS)
 -Longitud mínima de contraseña
 -Umbral de bloqueo
 -Edad máxima de contraseña 
 
-## Cómo ejecutarlo paso a paso 
+## 🫸 Cómo ejecutarlo paso a paso 
 
 1. Abrir PowerShell como administrador
 2. Permitir ejecución de scripts si es necesario:
@@ -114,15 +114,15 @@ Set-Execution Policy Bypass -Scope Process
     </code>
 </pre>
 
-## Advertencia legal 
+## ⚠️ Advertencia legal 
 
 Este script es únicamente para fines educativos y auditorías en redes donde tengas autorización. El uso inapropiado no solo sería poco ético si no que además puede violar leyes de privacidad y seguridad informática. 
 
 
-## Contribuciones
+## 🤝 Contribuciones
 Las contribuciones son bienvenidas! Puedes abrir un issue o un pull request.
 
-## Contacto en caso de fallos
+## 🗣️💬 Contacto en caso de fallos
 
 
 
