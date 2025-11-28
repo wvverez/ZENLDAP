@@ -49,7 +49,7 @@ cd ZENLDAP.git
 
 ## Parámetros principales:
 
-| Parámetrp | Descripción |
+| Parámetro | Descripción |
 |--------|-------------|
 | `LDAPath` | Ruta LDAP con el DN base  |
 | `Username` | Usuario de dominio   |
@@ -59,3 +59,31 @@ cd ZENLDAP.git
 
 ## Archivos generados
 
+El script exporta automáticamente los siguientes reportes:
+
+| Parámetro | Descripción |
+|--------|-------------|
+| `domain_groups.csv` | Listado de grupos y sus miembros  |
+| `domain_users.csv` | Usuarios, correos, UAC, último inicio   |
+| `domain_computers.csv` | Equipos y SO detectado  |
+| `domain_policy.csv` | Parámetros clave de la política de contraseñas   |
+
+Estos archivos pueden abrirse en Excel, PowerBI o cualquier herramienta SIEM/SOC
+
+## QUE INFORMACIÓN OBTIENE
+
+Grupos (objectClass=group)
+-Nombre del grupo
+-Descripción 
+-Miembros
+
+Usuarios (objectClass=user)
+-Nombre
+-Correo
+-Último inicio (lastLogonTimestamp)
+-Cuenta dehsbilitada
+-Contraseña nunca expira
+
+
+Equipos (objectClass=computer)
+-Nombre
