@@ -4,7 +4,7 @@ LDAP en AD es el protocolo estándar utilizado para buscar, administrar y accede
 <img width="552" height="316" alt="image" src="https://github.com/user-attachments/assets/96a99f11-6dcd-40fd-873b-51ef2524b9c8" />
 Este repositorio contiene un script echo en powershell diseñado para enumerar consultas de AD usando consultas LDAP paginadas.
 
-🔎Extrae información de:
+## 🔎 Extrae información de:
 ✅ Grupos del dominio
 
 ✅Usuarios 
@@ -15,7 +15,7 @@ Este repositorio contiene un script echo en powershell diseñado para enumerar c
 
 y exporta todo en archivos CSV.
 
-##📭 Características principales
+## 📭 Características principales
 
 ↪️ Conexión LDAP autenticada (Secure/ LDAPS)
 
