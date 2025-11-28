@@ -86,4 +86,46 @@ Usuarios (objectClass=user)
 
 
 Equipos (objectClass=computer)
--Nombre
+-Nombre del equipo
+-Sistema operativo
+-Último inicio 
+
+Política de dominio (domainsDNS)
+-Longitud mínima de contraseña
+-Umbral de bloqueo
+-Edad máxima de contraseña 
+
+## Cómo ejecutarlo paso a paso 
+
+1. Abrir PowerShell como administrador
+2. Permitir ejecución de scripts si es necesario:
+
+   <pre>
+       <code>
+Set-Execution Policy Bypass -Scope Process
+       </code>
+   </pre>
+
+3. Ejecutar el script con los parámetros deseados:
+
+<pre>
+    <code>
+   .\script.ps1 -LDAPPath "LDAP://DC=empresa,DC=com"
+    </code>
+</pre>
+
+## Advertencia legal 
+
+Este script es únicamente para fines educativos y auditorías en redes donde tengas autorización. El uso inapropiado no solo sería poco ético si no que además puede violar leyes de privacidad y seguridad informática. 
+
+
+## Contribuciones
+Las contribuciones son bienvenidas! Puedes abrir un issue o un pull request.
+
+## Contacto en caso de fallos
+
+
+
+
+
+   
